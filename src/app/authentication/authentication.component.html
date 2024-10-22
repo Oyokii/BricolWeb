@@ -1,0 +1,26 @@
+<div id="auth-container">
+    <div id="auth">
+        <div class="left">
+            <img src="./images/Room_auth.png" alt="">
+        </div>
+        <div class="right">
+            <h4 class="login">SIGN IN</h4>
+            <form (submit)="LogIn()" [formGroup]="authFormGroup">
+                <input type="text" name="email" id="email" placeholder="Email" formControlName="email">
+                <input type="password" name="password" id="password" placeholder="Password" formControlName="password">
+                <button type="submit">Let's start !</button>
+            </form>
+            <div class="social-media">
+                <div class="facebook-container">
+                    <img class="facebook" src="./images/icons/facebook.png" alt="">
+                </div>
+                <div class="google-container">
+                    <img class="google" src="./images/icons/google.png" alt="">
+                </div>
+            </div>
+            <p>Don't have account ? <span>Sign Up</span></p>
+            <div class="decoUn"></div>
+            <div class="decoDeux"></div>
+        </div>
+    </div>
+</div>

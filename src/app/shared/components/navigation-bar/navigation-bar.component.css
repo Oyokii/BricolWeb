@@ -1,0 +1,87 @@
+#nav-container{
+    width: 185vh;
+    height: 50px;
+    position: absolute;
+    margin: 20px 0 0 -90vh;
+}
+
+#nav-container nav{
+    display: flex;
+}
+
+#list-nav {
+    width: 125vh;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+}
+
+#pages-link {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 90vh;
+    align-items: center;
+    margin: 0 300px 0 0;
+}
+
+#pages-link a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+#recherche-container{
+    margin: 0 0 0 120vh;
+    background-color: #D9D9D9;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+}
+
+#recherche-container .recherche{
+    all: unset;
+    height: 30px;
+    width: 180px;
+    padding-top: -10px;
+}
+
+#recherche-container img{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    padding: 10px 0 0 0;
+    margin: -4px 10px 0 180px;
+
+}
+
+#user-container {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 0 0 170vh;
+    position: absolute;
+}
+
+#user-container .user{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin: 5px 0 0 5px;
+    width: 90px;
+}
+
+#user-container .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+#user-container .user img:hover {
+    background-color: #D9D9D9;
+}

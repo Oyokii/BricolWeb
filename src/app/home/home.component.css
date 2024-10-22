@@ -1,0 +1,34 @@
+#home {
+    background-image: url("/images/background/homePage.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    border-radius: 0 20vh 0 20vh;
+}
+
+#landing {
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+#type-product{
+    height: 20vh;
+    width: 100%;
+    margin: 85vh 0 0 0;
+}
+
+.best-product-box{
+    width: 80%;
+    height: 80vh;
+    background-color: tomato;
+}
+
+#menu {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+}

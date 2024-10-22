@@ -1,0 +1,106 @@
+#auth-container{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    margin: 20vh 0 0 45vh;
+}
+
+#auth {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+#auth .left{
+    width: 45%;
+    height: 60vh;
+    background-color: #A68319;
+}
+
+#auth .left img{
+    width: 90%;
+    height: 60vh;
+    margin: 0 0 0 20px;
+}
+
+#auth .right{
+    margin: 0 0 0 19vh;
+    text-align: center;
+}
+
+#auth .right .login{
+    font-size: 30px;
+    margin: 10vh 0 0 0;
+}
+
+#auth .right form{
+    margin: 20px 0 0 0;
+    display: grid;
+}
+
+#auth .right input{
+    height: 40px;
+    width: 250px;
+    border-radius: 14px;
+    margin: 20px 0 0 0;
+    border: 0px;
+    background-color: rgba(46, 96, 76,0.2);
+    font-size: 15px;
+    padding: 0 0 0 10px;
+}
+
+#auth .right button{
+    height: 40px;
+    width: 145px;
+    margin: 20px 0 0 110px;
+    border-radius: 14px;
+    background-color: #2E604C;
+    font-size: 15px;
+    border: 0px none;
+    color: white;
+}
+
+#auth .right .social-media{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    margin: -45px 0 0 0;
+}
+
+#auth .right .social-media .facebook{
+    width: 55px;
+    height: 55px;
+}
+
+#auth .right .social-media .google-container{
+    margin: 7px 0 0 0;
+}
+
+#auth .right .social-media .google{
+    width: 40px;
+    height: 40px;
+}
+
+#auth .right p{
+    margin: 20px 0 0 60px;
+    text-align: left;
+}
+
+#auth .right span{
+    font-weight: 700;
+}
+
+#auth .right .decoUn{
+    width: 300px;
+    height: 8px;
+    background-color: #A68319;
+    margin: 60px 0 0 70px;
+}
+
+#auth .right .decoDeux{
+    width: 8px;
+    height: 150px;
+    background-color: #A68319;
+    margin: -50vh 0 0 60vh;
+    position: absolute;
+}

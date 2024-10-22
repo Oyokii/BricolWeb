@@ -1,0 +1,17 @@
+<div id="product-container" >
+    <div id="product" *ngFor="let produit of products">
+        <a routerLink="/produit">
+            <div class="top">
+                <img src="{{produit.image}}" alt="">
+                <div class="promo">
+                    <h6 class="texte">P R O M O T I O N</h6>
+                </div>
+            </div>
+            <div class="bottom">
+                <h5 class="nom-produit">{{produit.libelle}}</h5>
+                <h6 class="prix-promo">{{produit.price}}€</h6>
+                <p class="prix">{{produit.price+21}}€</p>
+            </div>
+        </a>
+    </div>
+</div>

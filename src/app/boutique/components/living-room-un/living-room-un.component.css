@@ -1,0 +1,40 @@
+#living-room-container{
+    width: 100%;
+    height: 80vh;
+}
+
+#living-room{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#living-room .left{
+    width: 30%;
+    height: 60vh;
+    background-color: #fa4c2e;
+}
+
+#living-room .middle{
+    width: 35%;
+    height: 60vh;
+}
+
+/* #living-room .right{
+    width: 100%;
+    height: 60vh;
+} */
+
+#living-room .right img{
+    width: 100%;
+    height: 80vh;
+}
+
+#living-room .deco{
+    width: 45%;
+    height: 25vh;
+    background-color: #fec134;
+    position: absolute;
+    margin: 50vh 0 0 20vh;
+}

@@ -1,0 +1,86 @@
+#living-room-container {
+    height: 90vh;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+#living-room {
+    display: flex;
+}
+
+#living-room .theme{
+    width: 40%;
+    height: 100vh;
+}
+
+#living-room .image{
+    width: 60%;
+    height: 100vh;
+    
+}
+
+#living-room img{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#living-room .theme .coloris{
+    margin: 0 0 0 60px;
+}
+
+#living-room .theme h6{
+    font-size: 40px;
+    font-weight: 500;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+#living-room .theme .textUn{
+    margin: 30px 0 0 40px;
+}
+
+#living-room .theme .textDeux{
+    margin: -120px 0 0 100px;
+}
+
+#living-room .theme .colorisUn{
+    width: 60px;
+    height: 200px;
+    background-color: #2D3E0F;
+    border-radius: 20px;
+    margin: -410px 0 0 240px;
+}
+
+#living-room .theme .colorisDeux{
+    width: 60px;
+    height: 200px;
+    background-color:#A68319;
+    border-radius: 20px;
+    margin: -110px 0 0 450px;
+}
+
+#living-room .theme .colorisTrois{
+    width: 60px;
+    height: 200px;
+    background-color: #6D856B;
+    border-radius: 20px;
+    margin: -80px 0 0 310px;
+}
+
+#living-room .theme .colorisQuatre{
+    width: 60px;
+    height: 200px;
+    background-color: #9A6F4C;
+    border-radius: 20px;
+    margin: -80px 0 0 160px;
+}
+
+#living-room .theme .colorisCinq{
+    width: 60px;
+    height: 200px;
+    background-color: #BABEAD;
+    border-radius: 20px;
+    margin: -110px 0 0 400px;
+}
